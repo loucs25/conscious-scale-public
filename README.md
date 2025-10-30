@@ -14,7 +14,7 @@ It introduces a royalty-driven, ethically governed system where intelligence its
 This repository contains the **public release whitepaper (v1.5.1.2)** for open reference, collaboration, and future community validation.
 
 📄 **Download the Whitepaper:**  
-[➡️ ConsciousScale_Whitepaper_v1.5.1.2_Public.pdf](./ConsciousScale_Whitepaper_v1.5.1.2_Public.pdf)
+https://github.com/loucs25/conscious-scale-public/blob/main/Conscious%20Scale%E2%84%A2%20Whitepaper%20v1.5.1.2%20%E2%80%94%20Public%20Release%20Edition.pdf
 
 ---
 
