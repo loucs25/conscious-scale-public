@@ -112,7 +112,7 @@ Every capsule maintains a cryptographic chain of custody:
 | Heritage persistent identifier (SWHID) |
 ---
 ## Fork Rights
-Every clone is a full protocol node. No registration 
+Every clone contains the full protocol. No registration 
 required. Forks must: - Maintain attribution to the 
 original protocol - Route royalties per the Conscious Scale 
 Foundation License (CSFL) - Preserve constitutional 
