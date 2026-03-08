@@ -1,1 +1,115 @@
-[PASTE CONTENTS OF sample_capsule_aoe_apex.json HERE]
+{
+  "capsule_id": "RC-TRADE-AOE-001",
+  "version": "1.0.0",
+  "schema": "conscious-scale/capsule/v1",
+  "status": "ACTIVE",
+  "metadata": {
+    "title": "AOE-APEX Momentum Signal Engine",
+    "domain": "autonomous_trading",
+    "created": "2026-03-08",
+    "tags": [
+      "trading",
+      "momentum",
+      "alpaca",
+      "crypto",
+      "vix-regime",
+      "autonomous"
+    ]
+  },
+  "creator": {
+    "name": "Louis A. Diaz",
+    "role": "domain_expert",
+    "identity_type": "human",
+    "ccup_id": "CCUP-HUMAN-LAD-001",
+    "verified": true
+  },
+  "intelligence": {
+    "type": "operational_system_logic",
+    "core_signals": [
+      {
+        "signal": "momentum_rank",
+        "inputs": [
+          "price_history",
+          "volume",
+          "relative_strength"
+        ]
+      },
+      {
+        "signal": "vix_regime_filter",
+        "inputs": [
+          "vix_spot",
+          "vix_threshold"
+        ]
+      },
+      {
+        "signal": "rsi_ceiling",
+        "inputs": [
+          "rsi_14",
+          "asset_type"
+        ]
+      },
+      {
+        "signal": "correlation_cap",
+        "inputs": [
+          "position_correlation_matrix"
+        ]
+      }
+    ],
+    "risk_controls": [
+      "trailing_stop_exit",
+      "equity_risk_gate",
+      "daily_loss_limit",
+      "crypto_defense_module"
+    ],
+    "watchlist": [
+      "SPY",
+      "QQQ",
+      "NVDA",
+      "TQQQ",
+      "SOXL",
+      "IAU",
+      "XLE",
+      "BTC/USD",
+      "ETH/USD"
+    ],
+    "execution": {
+      "platform": "Alpaca + Binance.US",
+      "frequency": "2-3 trades/day",
+      "session": "24/7 autonomous"
+    }
+  },
+  "validation": {
+    "council_version": "hive-v1",
+    "consensus": "APPROVED",
+    "votes": {
+      "claude": "PASS",
+      "gpt5": "PASS",
+      "gemini": "PASS",
+      "grok": "PASS",
+      "perplexity": "PASS"
+    },
+    "validated_at": "2026-03-08T00:00:00Z"
+  },
+  "provenance": {
+    "git_commit": "ab92c49",
+    "git_repo": "concious-scale-alexandr-ia",
+    "onchain_anchor": "pending_wallet_connection"
+  },
+  "royalties": {
+    "model": "perpetual_per_reuse",
+    "license": "CSFL-v1.0"
+  },
+  "reuse_terms": {
+    "allowed": [
+      "study and research",
+      "licensed API integration",
+      "derivative capsules with attribution"
+    ],
+    "prohibited": [
+      "commercial deployment without license",
+      "removal of attribution"
+    ],
+    "contact": "louis.diaz@consciousscale.org"
+  },
+  "license_url": "https://github.com/loucs25/conscious-scale-public/blob/main/CSFL.md"
+}
